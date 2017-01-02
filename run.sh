@@ -1,3 +1,6 @@
+echo '--------- Install Xcode-select ----------'
+xcode-select --install
+
 # Check if PiP is installed
 echo '--------- Installing PIP ----------'
 sudo easy_install pip
@@ -8,7 +11,6 @@ sudo pip install ansible
 
 # Install brew
 echo '--------- Installing Brew ----------'
-xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install Java
@@ -19,6 +21,8 @@ echo '---------  Run Ansible ----------'
 ansible-galaxy install -r requirements.yml
 ansible-playbook main.yml -i inventory -K
 
-echo '--------- Adjust zshrc ----------'
-cp -R .zprezto/ ~/.zprezto
-cp .zshrc ~/.zshrc
+echo '--------- Install oh-my-zsh ----------'
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+echo '--------- Use zsh as default shell ----------'
+chsh -s /bin/zsh

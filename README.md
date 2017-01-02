@@ -3,8 +3,9 @@ This repository is a fork of Jeff Geerlings excellent repository: https://github
 
 For installation:
 
-```
-Download a ZIP from https://github.com/kasiakasprzak/mac-dev-playbook
-Unpack ZIP and go to this folder
-sh run.sh
-```
+- Install X-code via Mac App Store
+- Download a ZIP from https://github.com/kasiakasprzak/mac-dev-playbook
+- go to this folder and run ```sh run.sh ```
+
+
+If you receive error with installing Ansible run script once again.
