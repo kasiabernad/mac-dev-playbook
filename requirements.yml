@@ -1,0 +1,5 @@
+---
+- src: geerlingguy.homebrew
+  path: vendor/roles
+- src: geerlingguy.mas
+  path: vendor/roles
