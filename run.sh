@@ -23,6 +23,3 @@ ansible-playbook main.yml -i inventory -K
 
 echo '--------- Install oh-my-zsh ----------'
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-echo '--------- Use zsh as default shell ----------'
-chsh -s /bin/zsh

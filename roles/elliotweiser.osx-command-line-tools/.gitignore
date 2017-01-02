@@ -1,0 +1,7 @@
+.molecule/
+.vagrant/
+playbook.retry
+.venv/
+.cache/
+*.pyc
+tests/__pycache__/
