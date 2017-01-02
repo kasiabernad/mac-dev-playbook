@@ -16,5 +16,5 @@ ansible-galaxy install -r requirements.yml
 ansible-playbook main.yml -i inventory -K
 
 echo '--------- Adjust zshrc ----------'
-cp .zprezto >> ~/.zprezto
-cp .zshrc >> ~/.zshrc
+cp -R .zprezto/ ~/.zprezto
+cp .zshrc ~/.zshrc
