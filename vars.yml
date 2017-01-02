@@ -32,7 +32,6 @@ homebrew_installed_packages:
   - erlang
   - nginx
   - libpng
-  - ngrok
   - python
   - node
   - python3

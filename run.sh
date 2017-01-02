@@ -11,6 +11,10 @@ echo '--------- Installing Brew ----------'
 xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# Install Java
+brew cask install java
+
+
 echo '---------  Run Ansible ----------'
 ansible-galaxy install -r requirements.yml
 ansible-playbook main.yml -i inventory -K
