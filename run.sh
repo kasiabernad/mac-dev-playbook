@@ -23,3 +23,6 @@ ansible-playbook main.yml -i inventory -K
 
 echo '--------- Install oh-my-zsh ----------'
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+echo '--------- Setup Mac OSX ----------'
+sh setup_osx.sh
