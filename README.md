@@ -4,7 +4,7 @@ This repository is a combination of fork of Jeff Geerlings excellent repository:
 For installation:
 
 - Install X-code via Mac App Store
-- Download a ZIP from https://github.com/kasiakasprzak/mac-dev-playbook
+- Download a ZIP from this repository
 - go to this folder and run ```sh run.sh ```
 
 
