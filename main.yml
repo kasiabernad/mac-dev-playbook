@@ -1,6 +1,6 @@
 ---
 - hosts: localhost
-  user: katarzynabernad
+  user: katarzyna
   connection: local
 
   vars_files:
